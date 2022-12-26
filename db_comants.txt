@@ -1,0 +1,27 @@
+CREATE DATABASE blog;
+use blog
+CREATE TABLE  users(
+    id int(11) not null auto_increment,
+    nameSurname VARCHAR(255),
+    usersname VARCHAR(255),
+    email VARCHAR(255),
+    userpassword VARCHAR(255),
+    tarih TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    primary key(id)
+);
+ALTER DATABASE phptest1 CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+ALTER TABLE test CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+CREATE TABLE  blogContent(
+    id int(11),
+    nameSurname VARCHAR(255),
+    usersname VARCHAR(255),
+    title VARCHAR(255),
+    blogid int(11) not null auto_increment,
+    content text,
+    contentdate TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+    primary key(id)
+    );
+ALTER TABLE blogContent CONVERT TO CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+
+

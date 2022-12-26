@@ -1,0 +1,34 @@
+#personel{
+    width: 80%;
+    font: bold 1.25em "Trebuchet MS", Verdana, Arial, Helvetica,
+    sans-serif;
+    border: 20px solid #505050;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 6px 6px 6px 12px;
+    background: #C1DAD7;
+    border-collapse: collapse;
+    }
+     
+    #personel th{
+    color: #41AA7F;
+    padding: 6px 6px 6px 12px;
+     
+    }
+     
+    #personel td{
+    padding: 6px 6px 6px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    }
+    #personel tr{
+    color: #112233;
+    background: #fff;
+    }
+    #personel tr:hover{
+    background:#202020;
+    color:#fff;
+    
+    }
+
